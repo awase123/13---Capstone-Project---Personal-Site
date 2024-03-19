@@ -188,19 +188,56 @@ body {
 /* Contact Me Page */
 
 .contact-section {
-  background-color: #58111a;
+  background-image: url("./images/neon-lights-7383803_1920.jpg");
+  background-size: cover;
+  background-position: center;
   color: white;
-  font-size: 2rem;
-  height: 100vh;
-  width: 100%;
-  border-bottom: 2px solid black;
+  height: 95vh;
 }
 
-#contact-header {
+.contact-intro {
+  color: #a9a9a9;
+  font-family: "Cyberpunk Is Not Dead";
+  font-size: 30px;
+  color: white;
+  padding-top: 40px;
   display: flex;
-  align-items: center;
   justify-content: center;
-  position: relative;
-  top: 100px;
-  text-decoration: underline;
+}
+
+.contact-bio {
+  font-family: "Cyberpunk Is Not Dead";
+  display: flex;
+  justify-content: center;
+  margin-top: -50px;
+}
+
+.contact-info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  font-family: "Cyberpunk Is Not Dead";
+  margin-top: 50px;
+}
+
+.contact-email,
+.contact-phone {
+  text-align: center;
+  align-self: center;
+}
+
+.contact-email > img {
+  height: 200px;
+}
+
+.contact-phone > img {
+  height: 220px;
+}
+
+/* Footer Section */
+
+.footer-section {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
 }
