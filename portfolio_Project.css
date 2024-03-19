@@ -114,7 +114,6 @@ body {
 .biography > h1 {
   font-size: 50px;
   display: flex;
-  
 }
 
 .paragraph-container {
@@ -124,13 +123,13 @@ body {
   justify-content: space-evenly;
 }
 
-.paragraph-container>p {
+.paragraph-container > p {
   max-width: 25%;
   margin-top: 0;
   margin-left: 50px;
 }
 
-.paragraph-container>img{
+.paragraph-container > img {
   height: 500px;
 }
 
@@ -144,7 +143,7 @@ body {
   height: 100vh;
 }
 
-.projects-intro{
+.projects-intro {
   color: #a9a9a9;
   font-family: "Cyberpunk Is Not Dead";
   font-size: 30px;
@@ -152,7 +151,38 @@ body {
   padding-top: 40px;
   display: flex;
   justify-content: center;
+}
 
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.projects-work {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+.projects-work img {
+  width: 300px;
+  height: 200px;
+  border: 2px dashed white;
+  padding: 3px;
+}
+
+.projects-work h2 {
+  color: white;
+  font-size: 30px;
+  font-family: "Cyberpunk Is Not Dead";
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.projects-work h3 {
+  font-family: "Cyberpunk Is Not Dead";
 }
 
 /* Contact Me Page */
@@ -174,4 +204,3 @@ body {
   top: 100px;
   text-decoration: underline;
 }
-
